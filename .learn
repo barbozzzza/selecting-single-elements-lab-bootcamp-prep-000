@@ -1,7 +1,9 @@
-tags:
-  - JS
-  - selectors
-languages:
-  - JS
-resources: 
-  - 0
+var header = document.querySelector("#header").innerHTML
+var linkText = document.querySelector("a").innerHTML
+var linkHref = document.querySelector("a").innerHTML
+
+
+console.log(`The header is: ${header}`)
+console.log(`The first link text is: ${linkText}`)
+console.log(`The first link href is: ${linkHref}`)
+ 
